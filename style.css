@@ -20,7 +20,7 @@ body {
    NAVBAR
 ========================= */
 .navbar {
-  background-color: #562828;
+  background-color: #3b0c0c;
   padding: 1em 2em;
   display: flex;
   justify-content: space-between;
@@ -62,7 +62,7 @@ body {
    CARDS
 ========================= */
 .resource-card {
-  background-color: rgba(79, 26, 26, 0.95);
+  background-color: rgba(86, 21, 21, 0.95);
   margin: 2em auto;
   padding: 1.5em;
   border-radius: 12px;
@@ -117,7 +117,7 @@ body {
 
 .reflection {
   flex: 1;
-  background-color: rgba(126, 0, 0, 0.45);
+  background-color: rgba(90, 3, 3, 0.569);
   padding: 1em;
   border-radius: 8px;
 }
