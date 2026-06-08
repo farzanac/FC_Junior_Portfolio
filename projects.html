@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Update these (from Curator Guide) -->
+  <meta name="description" content="Junior Fall Portfolio for Arma Rahman" />
+  <meta name="keywords" content="portfolio, junior, projects, programming, web development" />
+  <meta name="author" content="Arma Rahman" />
+
+  <title>ARMA RAHMAN | Junior Fall Portfolio</title>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional favicon (put your icon file in the same folder) -->
+  <link rel="icon" type="image/x-icon" href="favicon.png" />
+
+  <!-- Optional fonts (only keep if your CSS uses them) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <!-- Replace logo.png with your own image file -->
+        <img src="favicon.png" alt="Logo" />
+      </div>
+
+      <ul class="navbar-right">
+        <li class = "press-start"><a href="index.html">Home</a></li>
+        <li class = "press-start"><a href="projects.html">Projects</a></li>
+        <li class = "press-start"><a href="cfus.html">CFUs</a></li>
+        <li class = "press-start"><a href="aboutme.html">About Me</a></li>
+        <li class = "press-start"><a href="contact.html">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="home-card">
+
+    <!-- ABOUT / BIO CARD -->
+    <section class="resource-card">
+
+        <div class="bio-text">
+          <p>
+           This part consists some of the projects I have completed so far.
+          </p>
+        </div>
+      </div>
+    </section>
+
+      <!-- PROJECT 1 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://miap111.github.io/Companion5_InfyApp26/" title="Talking Clean"></iframe>
+
+        <div class="reflection">
+          <h3>Talking Clean</h3>
+          <p>
+            A website that consists for a game named Talking Clean that me and my group made for the Infy App Challenge. You play as the player Doobie and learn about the environment. 
+            You are lead by the guide, Sir-Quacks-A-Lot, who gives you instructions and says if you are right or wrong.
+          </p>
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+     <!-- PROJECT 2 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://play.unity.com/en/games/adb9d1e6-6ecc-445a-8567-3e56386090a1/space-driver" title="Space Driver"></iframe>
+
+        <div class="reflection">
+          <h3>Space Driver</h3>
+          <p>
+            A 2D shooter game where in level 1 the rocketship must move around avoiding the attacks from the enemies whilst shooting the enemies at the same time. Once they destroy all the enemies they can proceed to the next level. In Level 2 along with the enemies from the previous level, they must defeat aliens too. Once they destroy all the enemies on this floor, they win the game. 
+            The player uses the WASD keys to move around and left clicking on the mouse to shoot bullets. They also hover the mouse over the scene to move the rocketship around so that they can attack the aliens. 
+
+
+          </p>
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECT 3 -->
+    <section class="resource-card">
+      <div class="project">
+        <iframe src="https://play.unity.com/en/games/534fc280-e2cf-4504-a7d2-42a6d19f0b14/phising-undersea" title="Phising Undersea"></iframe>
+
+        <div class="reflection">
+          <h3>Phising Undersea</h3>
+          <p>
+           A 2D platformer game where you need to get collect the items and avoid the enemies. 
+
+
+          </p>
+          <p><strong>Skills:</strong> Python</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="resource-card">
+    <p>© <span id="year"></span> FARZANA CHINAPEN | Junior Spring Portfolio</p>
+  </footer>
+
+  <script>
+    // Auto-updates the year in the footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
