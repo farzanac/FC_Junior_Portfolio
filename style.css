@@ -4,15 +4,21 @@
 * {
   box-sizing: border-box;
 }
+h1 {
+  letter-spacing: 3px;
+  font-family:fantasy;
+}
 
 body {
   margin: 0;
-  font-family:fantasy;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: #7e3939;
   color: #f0f0f0;
   background-size: cover;
   background-repeat: repeat-y;
   background-attachment: fixed;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 /* =========================
